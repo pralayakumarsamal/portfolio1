@@ -23,7 +23,7 @@ const Hero = () => {
           {/* Left Side */}
           <div>
 
-            <p className="text-purple-400 font-semibold tracking-widest uppercase">
+            <p className="text-purple-400 font-semibold tracking-widest ">
               Hello, I'm
             </p>
 
