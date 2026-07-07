@@ -14,11 +14,11 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen bg-[#050816] text-white flex items-center pt-24"
+      className="min-h-screen bg-[#050816] text-white flex items-center py-20"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 w-full">
 
-        <div className="grid lg:grid-cols-2 items-center gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 text-center lg:text-left">
 
           {/* Left Side */}
           <div>
@@ -27,7 +27,7 @@ const Hero = () => {
               Hello, I'm
             </p>
 
-            <h1 className="text-5xl lg:text-6xl font-extrabold leading-tight mt-4">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mt-4">
               Pralaya Kumar
               <br />
               <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-pink-500">
@@ -35,18 +35,18 @@ const Hero = () => {
               </span>
             </h1>
 
-            <h2 className="text-2xl lg:text-3xl text-cyan-400 font-bold mt-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl text-cyan-400 font-bold mt-6">
               MERN Stack Developer
             </h2>
 
-            <p className="text-gray-300 mt-6 leading-8 max-w-xl">
+            <p className="text-gray-300 mt-6 leading-8 max-w-xl mx-auto lg:mx-o">
               Passionate MERN Stack Developer with 1.6+ years of experience
               building responsive, scalable and modern web applications using
               React.js, Node.js, Express.js, MongoDB, MySQL and Tailwind CSS.
             </p>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-5 mt-8">
+            <div className="flex justify-center lg:justify-start items-center gap-5 mt-8">
 
               <a
                 href="https://github.com/pralayakumarsamal"
