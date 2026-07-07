@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-[#050816]/80 backdrop-blur-md ">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#050816]/80 backdrop-blur-md border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
 
         {/* Logo */}
