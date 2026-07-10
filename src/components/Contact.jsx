@@ -20,6 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("button clicked");
     
 
     try {
